@@ -73,7 +73,7 @@ header {
 }
 
 .menu a:hover {
-    color: rgb(255, 255, 255);
+    color: red;
     transition: .2s ease-in-out;
 }
 
@@ -258,6 +258,7 @@ header {
 .blog-container {
     padding-top: 70px;
     margin-bottom: 30px;
+
 }
 
 .blog-title {
@@ -318,3 +319,6 @@ header {
     color: rgb(76, 72, 72);
     padding: 12px 18px;
 }
+
+/* footer styles */
+
