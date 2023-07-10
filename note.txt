@@ -1,0 +1,21 @@
+*>> position different type hoy. noramlly decalre na korle static hoy position.
+
+*>> css e margin-top newar bodole top: 50px; lekha jay kintu static bade onno jekono position e eta kaj korbe.
+
+*>> position relative bolte bujhay eta block elemnt ba onno jekono element er upore bhaste parbe.
+
+*>> position fixed bolte oi ongso tuk r norbe na jekono element er lekha er niche thakbe but ei ongso tuk tar jaygay sthir thakbe tobe poriborton kora jabe margin padding diye
+
+*>> position relative bolte margin padding diye onnotar upor jabe but arektar kar theke jaga niye rakhbe
+
+*>> position sticky kore rakhle upor theke scroll er songe norbe margin  deya thakle ota soho norbe.
+
+
+***> position absolute and rtelative.  
+	position absolute depend kore parent position er upor ekta div e jodi position relative deya 	hoy and er child div e jodi position absolute deya hoy tokhon margin padding use kore eksonge 	adjust kora jay. and margin dile seta parent er jayga theke nibe. r etay margin padding sob 	nibe hosse parent div or element theke.
+	
+	**> jodi child div ke parent div er bhitorei rakhte chai tahole position child er ta absolute 	parent er ta relative krole eta sudhu parent er bhitor thekei nibe margin. jemon right: 0; r	fixed dei child div er position tahole eta purota main body theke nibe.
+
+
+
+***> Height:100 vh; bolte bujhay ekdm ses matha porjonto jabe

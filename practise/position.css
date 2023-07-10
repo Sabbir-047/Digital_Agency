@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.parent{
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    /* position: relative; */
+    /* position: fixed; */
+    position: relative;
+    /* position: sticky; */
+    top: 50px;
+}
+
+
+.red{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: red;
+    margin-top: -30px;
+    margin-left: 100px;
+}
+
+/* 	
+
+**> position absolute and relative
+
+position absolute depend kore parent position er upor ekta div e jodi position relative deya 	hoy and er child div e jodi position absolute deya hoy tokhon margin padding use kore eksonge 	adjust kora jay. and margin dile seta parent er jayga theke nibe */
