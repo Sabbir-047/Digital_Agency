@@ -257,7 +257,7 @@ header {
 
 .blog-container {
     padding-top: 70px;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
 
 }
 
@@ -338,4 +338,50 @@ footer{
     background-blend-mode: overlay;
     width: 70%;
     margin: auto;
+    border-bottom: 2px solid black;
+}
+
+.contact > h3{
+    margin-bottom: 30px;
+    font-size: 23px;
+}
+
+.contact-description{
+    padding: 18px 0px;
+    font-size: 18px;
+}
+
+/* .contact-list{
+
+} */
+
+.contact-list li{
+    list-style: none;
+    padding: 5px 0px;
+    font-size: 18px;
+}
+
+.font-icon a{
+    text-decoration: none;
+    color: white;
+}
+
+.font-icon i{
+    font-size: 23px;
+    padding: 10px;
+}
+
+.font-icon i:hover{
+    color: red;
+    transition: .4s ease-in;
+    rotate: 360deg;
+}
+
+/* copyright */
+
+.copyright{
+    padding-top: 18px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 18px;
 }
