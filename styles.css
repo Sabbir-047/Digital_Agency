@@ -31,3 +31,12 @@
 
 /* banner Styles */
 
+.banner-container{
+    height: 100vh;
+    background-image: url("asset/image/background.jpg"), linear-gradient(rgba(34, 104, 104, 0.486), rgba(29, 76, 80, 0.466));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
