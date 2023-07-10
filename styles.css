@@ -1,6 +1,37 @@
+/* Common Styles */
+
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.primary{
+    color: rgb(245, 44, 44);
+}
+
+.title{
+    font-size: 86px;
+    font-weight: 900;
+    color: white;
+}
+
+.description{
+    font-size: 22px;
+    color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+
+/* header styles */
+header{
+    background-image: url("asset/image/background.jpg"), linear-gradient(rgba(34, 104, 104, 0.486), rgba(29, 76, 80, 0.466));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 /* nav styles */
@@ -8,7 +39,7 @@
     display: flex;
     padding: 20px;
     justify-content: space-around;
-    background-color: rgba(172, 166, 166, 0.5);
+    /* background-color: rgba(172, 166, 166, 0.5); */
 }
 
 .menu{
@@ -20,8 +51,9 @@
 
 .menu a{
     text-decoration: none;
-    color: black;
-    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 22.5px;
+    font-weight: bolder;
 }
 
 .menu a:hover{
@@ -33,10 +65,48 @@
 
 .banner-container{
     height: 100vh;
-    background-image: url("asset/image/background.jpg"), linear-gradient(rgba(34, 104, 104, 0.486), rgba(29, 76, 80, 0.466));
+    /* background-image: url("asset/image/background.jpg"), linear-gradient(rgba(34, 104, 104, 0.486), rgba(29, 76, 80, 0.466)); */
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 
+.banner-title{
+    font-size: 86px;
+    font-weight: 900;
+    color: white;
+}
+
+.banner-description{
+    font-size: 22px;
+    color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+
+.banner-btn{
+    padding: 20px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0;
+    border-radius: 10px;
+    margin: 0px 20px;
+}
+
+.banner-btn:hover{
+    box-shadow: 1px 1px 20px 2px rgba(49, 45, 45, 0.952);
+    transition: .2s ease-in;
+    rotate: 1deg;
+}
+
+#red-btn{
+    background-color: red;
+    color: white;
+}

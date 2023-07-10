@@ -19,3 +19,5 @@
 
 
 ***> Height:100 vh; bolte bujhay ekdm ses matha porjonto jabe
+
+***> width set korar por margin auto use kroa jay
